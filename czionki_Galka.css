@@ -1,0 +1,36 @@
+p#akapit_galka
+{
+text-align: right;
+font-family:serif;
+color:008080;
+
+sposób wyrównywania tekstu dla całego akapitu
+rodzina czcionki 1 (patrz tabela „Sposób kodowania rodziny czcionek”)
+kolory tekstu (patrz „pierwsza tabela kolorów” wg numeru w dzienniku)
+wcięcia tekstu:
+odstępy między: wierszami
+odstępy między: wyrazami
+odstępy między: literami
+
+}
+z1_kowalski  
+{
+	
+font-size:small;	
+FONT-VARIANT:kapitaliki;
+
+}
+z2_kowalski  
+{
+	
+font-size:medium;	
+FONT-VARIANT:kapitaliki;
+
+}
+z3_kowalski  
+{
+	
+font-size:xx-large;	
+FONT-VARIANT:kapitaliki;
+
+}
