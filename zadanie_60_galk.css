@@ -1,0 +1,23 @@
+div{
+	width:607px;
+	background-color:green;
+	font-size:19mm;
+	
+	
+	
+}
+div#blok1_galka:hover
+{
+background-color: red;
+text-decoration: underline;
+}
+div#blok2_galka:hover
+{
+background-color: gold;
+text-decoration: underline;
+}
+div#blok3_galka:hover
+{
+background-color: yellow;
+text-decoration: underline;
+}
