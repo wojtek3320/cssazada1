@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Galka</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body bgcolor="silver">
+<ol>
+<h1><li>zapisz zastosowanie i składnię selektora potomka</h1></li>
+Selektor potomka pozwala nadać atrybuty elementom, które leżą niżej w hierarchii drzewa dokumentu (zawierają się w innych zewnętrznych znacznikach). Dzięki temu możemy zmienić typ formatowania tylko dla określonych elementów, które są podrzędne w stosunku do innych (przodków). Potomek nie musi leżeć bezpośrednio wewnątrz znacznika przodka. Może być zawarty jeszcze w innych znacznikach, które z kolei zawierają się w rodzicu. Nie jest wtedy konieczne podawanie w deklaracji wszystkich rodziców, a jedynie przodka i potomka.
+<h1><li>do formatowania jakich elementów służy</h1></li>
+Przy użyciu selektora potomka można formatować elementy, które sa zawarte wewnątrz innych znaczników, czyli leżą niżej w hierarchii drzewa dokumentu.
+<h1><li>składnia teoretyczna</h1></li>
+<textarea cols=60 rows=1>przodek1 przodek2 ... potomek { cecha: wartość}</textarea>
+<h1><li>opis przodek, potomek, cecha, wartość</h1></li>
+"przodek1, przodek2,..." oraz "potomek" (wielokropek należy pominąć!) są selektorami typu, przy czym przodek leży wyżej w hierarchii drzewa dokumentu
+Natomiast wyrazy "cecha" oraz "wartość" określają atrybuty elementu.
+</ol>
+</body>
+</html>
